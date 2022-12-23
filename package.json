@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "percy": "react-percy"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@percy/react": "^0.4.6",
+    "eslint-plugin-react-percy": "^0.2.4"
   }
 }
