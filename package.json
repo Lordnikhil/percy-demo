@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@percy/cli": "^1.16.0",
     "@percy/react": "^0.4.6",
     "eslint-plugin-react-percy": "^0.2.4"
   }
